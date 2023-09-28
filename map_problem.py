@@ -3,8 +3,9 @@ w=ph.split(" ")
 f=map(len,w)
 print(list(f))
 
-
 def word_lengths(phrase):
-    return len(phrase.split(" "))
+    l=phrase.split(" ")
+    return len(l[0])
 
 print(list(map(word_lengths,ph)))
+
