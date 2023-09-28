@@ -24,8 +24,6 @@ print("------------------------")
 print()
 
 s='hello'
-for let in s:
-    print(let)
 
 new_iter=iter(s)
 print(next(new_iter))
